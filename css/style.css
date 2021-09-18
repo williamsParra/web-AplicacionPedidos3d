@@ -1,0 +1,84 @@
+/* tabla de colores  */
+
+/* colores principales  */
+
+/* color de fondo           = #112031  */
+/* color de primario        = #152D35  */
+/* color de secundario      = #345B63  */
+/* color de terciario       = #D4ECDD  */
+
+html{
+    font-family: 'Orbitron', sans-serif;
+    color:#D4ECDD;    
+}
+
+body{
+    background-color:#152D35;
+}
+
+main{
+    margin-top:70px;
+}
+
+footer{       
+    background-color:#345B63;
+    position:absolute;
+    bottom:0px;
+    width:100%;    
+}
+
+h1,h2,h3{
+    text-align:center;
+}
+ul{
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+    left:0px;
+    width: 100%;
+    background-color: #112031;
+}
+
+li{
+    float:left;
+    border-radius:3px;
+    margin: 0px 10px 0px 0px;
+    transition:0.3s;
+}
+
+li a{
+    display: block;
+    color:#D4ECDD;
+    text-align:center;
+    padding:18px;
+    text-decoration:none;
+}
+
+li:hover{
+    background-color: rgba(255,255,255,0.5);    
+    transform:scale(1.2);
+}
+
+table{
+    background-color:#345B63;
+    margin:0 auto;
+    width:100%;
+    border-collapse:collapse;
+    border:1px solid #112031;
+}
+
+table th{
+    text-align:left;
+    background-color: #112031;
+    padding: 12px 12px;
+}
+
+td{
+    border:1px solid #D4ECDD;
+    padding: 12px 12px;
+}
+
+
