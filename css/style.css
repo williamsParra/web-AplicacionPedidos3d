@@ -24,12 +24,18 @@ footer{
     background-color:#345B63;
     position:absolute;
     bottom:0px;
-    width:100%;    
+    width:100%;
 }
 
 h1,h2,h3{
     text-align:center;
 }
+
+.activo{
+    color:greenyellow;
+    background-color:rgba(255,255,255,0.3);
+}
+
 ul{
     list-style-type:none;
     margin:0px;
@@ -65,6 +71,7 @@ li:hover{
 table{
     background-color:#345B63;
     margin:0 auto;
+    padding:10px;
     width:100%;
     border-collapse:collapse;
     border:1px solid #112031;
@@ -81,4 +88,40 @@ td{
     padding: 12px 12px;
 }
 
+button{
+    font-family:'Orbitron', sans-serif;
+    color:#D4ECDD;
+    background-color:#112031;
+    width:100%;
+    border-style:none;
+    border-radius:3px;
+    cursor:pointer;
+    padding:10px;
+}
 
+button:hover{
+    background-color: rgba(255,255,255,0.5);    
+    color:greenyellow;    
+}
+
+textarea{
+    resize: none;
+    box-sizing: border-box;
+    width: 100%;
+    margin:10px 0px;
+}
+
+form{    
+    margin:0 auto;
+    padding:3px;
+    background-color:#345B63;
+    border-radius:3px;
+}
+
+form input[type=text]{
+    padding: 10px 5px;
+    border-radius:3px;
+    width:100%;
+    box-sizing: border-box;
+    margin:10px 0px;
+}
