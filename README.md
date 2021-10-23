@@ -2,4 +2,4 @@
 
 <h2>el desarrollo de esta app es solo para testear conocimientos.</h2>
 
-<p>solo para testear cosas</p>
+<p>la finalidad de esta aplicacion es ser utilizada para capturar pedidos de trabajos en 3D</p>
